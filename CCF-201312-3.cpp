@@ -10,7 +10,6 @@ int main()
 
   gg ni, ans = 0;
   cin >> ni;
-
   vector<gg> v(ni);
 
   for (gg &i : v)
