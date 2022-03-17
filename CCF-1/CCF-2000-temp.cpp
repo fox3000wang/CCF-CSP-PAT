@@ -10,6 +10,12 @@ int main()
   gg n, o = 0;
   cin >> n;
 
+  vector<gg> ai(n);
+  for (gg &i : ai)
+  {
+    cin >> i;
+  }
+
   cout << o;
   return 0;
 }
