@@ -75,10 +75,10 @@ int main()
     }
   }
 
-  cout << o[1] << "\n"; // 107
-  cout << o[2] << "\n"; // 83
-  cout << o[3] << "\n"; // 123
-  cout << o[0] << "\n"; // 74
+  cout << o[1] << "\n";
+  cout << o[2] << "\n";
+  cout << o[3] << "\n";
+  cout << o[0] << "\n";
 
   return 0;
 }
