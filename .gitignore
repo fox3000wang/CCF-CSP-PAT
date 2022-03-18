@@ -30,8 +30,9 @@
 *.exe
 *.out
 *.app
-bits/stdc++
-CCF-20????-?
+
 .DS_Store
-CCF-1/201712-1
+*/CCF-20????-?
+*/20????-?
 01-data-type
+*/CCF-2000-temp

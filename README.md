@@ -91,6 +91,18 @@ int main()
 }
 ```
 
+## 坑点
+
+### setprecision
+
+http://c.biancheng.net/view/1340.html
+
+### fixed
+
+http://c.biancheng.net/view/1341.html
+
+如果一个数字太大，无法使用 setprecision 指定的有效数位数来打印，则许多系统会以科学表示法的方式打印。
+
 ## 常见问题
 
 ### 万能头文件无法加载
@@ -104,6 +116,7 @@ error: 'bits/stdc++.h' file not found with <angled> include; use "quotes" instea
 ```
 
 https://www.zhihu.com/question/64960364/answer/226132659
+上面的方法不灵，我删除了 xcode （太占空间）
 
 ```
 cd /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1
@@ -111,4 +124,18 @@ cd /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1
 mkdir bits
 
 cp ~/Downloads/stdc++.h bits/
+```
+
+### 利用 freopen 取代传统的手动输入测试数据
+
+```c++
+freopen("201912-1.txt", "r", stdin); //提交前删除
+```
+
+```
+4 4 16
+0 1 2 3
+4 5 6 7
+8 9 10 11
+12 13 14 15
 ```

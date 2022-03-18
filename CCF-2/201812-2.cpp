@@ -21,7 +21,7 @@ using namespace std;
 using gg = long long;
 int main()
 {
-  freopen("CCF-201812-2.txt", "r", stdin);
+  freopen("201812-2.txt", "r", stdin);
 
   ios::sync_with_stdio(false);
   cin.tie(0);
