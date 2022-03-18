@@ -1,31 +1,13 @@
-/*
-#include <bits/stdc++.h>
-using namespace std;
-using gg = long long;
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(0);
-    gg ni;
-    cin >> ni;
-    vector<gg> v(ni);
-    for (gg& i : v) {
-        cin >> i;
-    }
-    sort(v.begin(), v.end());
-    adjacent_difference(v.begin(), v.end(), v.begin());
-    cout << *min_element(v.begin() + 1, v.end());
-    return 0;
-}
-*/
-
 #include <bits/stdc++.h>
 using namespace std;
 using gg = long long;
 int main()
 {
   freopen("CCF-201712-1.txt", "r", stdin);
-  // ios::sync_with_stdio(false);
-  // cin.tie(0);
+
+  ios::sync_with_stdio(false);
+  cin.tie(0);
+
   gg n, o;
   cin >> n;
   gg num[n], mini[n];

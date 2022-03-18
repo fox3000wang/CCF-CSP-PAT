@@ -5,8 +5,9 @@ using gg = long long;
 int main()
 {
   freopen("CCF-201312-3.txt", "r", stdin);
-  // ios::sync_with_stdio(false);
-  // cin.tie(0);
+
+  ios::sync_with_stdio(false);
+  cin.tie(0);
 
   gg ni, ans = 0;
   cin >> ni;

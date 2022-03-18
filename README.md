@@ -67,9 +67,35 @@ macOS 可以参考我的后续
 1. 下载安装 [VSCode](https://code.visualstudio.com/)
 2. 安装 c++扩展
 
+## 做题模版
+
+```c++
+#include <bits/stdc++.h> // 万能头文件
+using namespace std;     // 使用标准命名空间
+using gg = long long;    //（C++11）超长整形 至少64位
+int main()
+{
+  // 辅助调试用, 提交前删除这一行
+  freopen("CCF-201312-3.txt", "r", stdin); // 测试用例写在CCF-201312-3.txt里
+
+  ios::sync_with_stdio(false); // 标准输入
+  cin.tie(0);                  // 标准输入
+
+  gg n;
+  cin >> n; //读取输入，赋值到n上
+
+  // you code
+
+  cout << n; // 标准输出 答案
+  return 0;
+}
+```
+
 ## 常见问题
 
-```
+### 万能头文件无法加载
+
+```c++
 error: 'bits/stdc++.h' file not found with <angled> include; use "quotes" instead
 #include <bits/stdc++.h>
          ^~~~~~~~~~~~~~~

@@ -4,8 +4,10 @@ using gg = long long;
 int main()
 {
   freopen("CCF-202009-1.txt", "r", stdin);
-  // ios::sync_with_stdio(false);
-  // cin.tie(0);
+
+  ios::sync_with_stdio(false);
+  cin.tie(0);
+
   gg n, X, Y;
   cin >> n >> X >> Y;
   vector<gg> d(n), o(n);

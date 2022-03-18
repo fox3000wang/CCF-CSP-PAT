@@ -4,8 +4,10 @@ using gg = long long;
 int main()
 {
   freopen("CCF-202012-1.txt", "r", stdin);
-  // ios::sync_with_stdio(false);
-  // cin.tie(0);
+
+  ios::sync_with_stdio(false);
+  cin.tie(0);
+
   gg n, w, s, o = 0;
   cin >> n;
   while (n--)
