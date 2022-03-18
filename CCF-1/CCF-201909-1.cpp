@@ -1,12 +1,4 @@
-/*
-3 3
-73 -8 -6 -4
-76 -5 -10 -8
-80 -6 -15 0
-*/
-
-#include "bits/stdc++.h"
-// #include <bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 using gg = long long;
 int main()

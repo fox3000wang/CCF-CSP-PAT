@@ -76,3 +76,13 @@ error: 'bits/stdc++.h' file not found with <angled> include; use "quotes" instea
          "bits/stdc++.h"
 1 error generated.
 ```
+
+https://www.zhihu.com/question/64960364/answer/226132659
+
+```
+cd /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1
+
+mkdir bits
+
+cp ~/Downloads/stdc++.h bits/
+```

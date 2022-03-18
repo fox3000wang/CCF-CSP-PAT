@@ -16,13 +16,12 @@
 共计 10+11+11+9+2+3 = 46 秒。
 */
 
-#include "bits/stdc++.h"
-// #include <bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 using gg = long long;
 int main()
 {
-  freopen("CCF-201812-1.txt", "r", stdin);
+  freopen("CCF-201812-2.txt", "r", stdin);
   // ios::sync_with_stdio(false);
   // cin.tie(0);
   gg r, y, g, n, k, t, o = 0;

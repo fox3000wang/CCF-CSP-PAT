@@ -23,8 +23,7 @@
 　　1<=n<=1000，给定的整数为不超过10000的非负整数。
 */
 
-#include "bits/stdc++.h"
-// #include <bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 using gg = long long;
 int main()
