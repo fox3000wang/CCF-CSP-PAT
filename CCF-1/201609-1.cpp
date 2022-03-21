@@ -3,34 +3,22 @@ using namespace std;
 using gg = long long;
 int main()
 {
-  freopen("CCF-201703-1.txt", "r", stdin);
+  freopen("201609-1.txt", "r", stdin);
 
   ios::sync_with_stdio(false);
   cin.tie(0);
 
-  gg n, k, o = 0;
+  gg n, o = 0;
   cin >> n;
-  cin >> k;
   gg num[n];
 
   for (gg i = 0; i < n; i++)
   {
     cin >> num[i];
   }
-
-  gg t = 0;
-  for (gg i = 0; i < n; i++)
+  for (gg i = 1; i < n; i++)
   {
-    t += num[i];
-    if (t >= k)
-    {
-      o++;
-      t = 0;
-    }
-  }
-  if (t != 0)
-  {
-    o++;
+    o = max(o, abs(num[i] - num[i - 1]));
   }
   cout << o;
   return 0;

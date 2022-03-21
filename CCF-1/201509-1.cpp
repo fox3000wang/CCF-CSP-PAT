@@ -3,19 +3,22 @@ using namespace std;
 using gg = long long;
 int main()
 {
-  freopen("CCF-202012-1.txt", "r", stdin);
+  freopen("201509-1.txt", "r", stdin);
 
   ios::sync_with_stdio(false);
   cin.tie(0);
 
-  gg n, w, s, o = 0;
+  gg n, o = 0;
   cin >> n;
-  while (n--)
+  gg num[n];
+  for (gg i = 0; i < n; i++)
   {
-    cin >> w >> s;
-    o += w * s;
+    cin >> num[i];
+    if (num[i] != num[i - 1])
+    {
+      o++;
+    }
   }
-  o = o > 0 ? o : 0;
   cout << o;
   return 0;
 }

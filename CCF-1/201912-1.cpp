@@ -25,7 +25,7 @@ bool hasSeven(gg n)
 
 int main()
 {
-  freopen("CCF-201912-1.txt", "r", stdin);
+  freopen("201912-1.txt", "r", stdin);
 
   ios::sync_with_stdio(false);
   cin.tie(0);

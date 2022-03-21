@@ -3,7 +3,7 @@ using namespace std;
 using gg = long long;
 int main()
 {
-  freopen("CCF-202006-1.txt", "r", stdin);
+  freopen("202006-1.txt", "r", stdin);
 
   ios::sync_with_stdio(false);
   cin.tie(0);
@@ -21,7 +21,7 @@ int main()
   for (gg i = 0; i < m; i++)
   {
     cin >> a >> b >> c;
-    }
+  }
 
   //cout << o;
   return 0;

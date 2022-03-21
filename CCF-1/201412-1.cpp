@@ -3,14 +3,14 @@ using namespace std;
 using gg = long long;
 int main()
 {
-  freopen("CCF-201403-1.txt", "r", stdin);
+  freopen("201412-1.txt", "r", stdin);
 
   ios::sync_with_stdio(false);
   cin.tie(0);
 
-  gg n, o = 0;
+  gg n;
   cin >> n;
-  gg num[n];
+  gg num[n], o[n];
 
   for (gg i = 0; i < n; i++)
   {
@@ -19,15 +19,20 @@ int main()
 
   for (gg i = 0; i < n; i++)
   {
-    for (gg j = i + 1; j < n; j++)
+    o[i] = 0;
+    for (gg j = 0; j <= i; j++)
     {
-      if (num[i] + num[j] == 0)
+      if (num[i] == num[j])
       {
-        o++;
+        o[i]++;
       }
     }
   }
 
-  cout << o;
+  for (gg i = 0; i < n; i++)
+  {
+    cout << o[i] << " ";
+  }
+
   return 0;
 }
