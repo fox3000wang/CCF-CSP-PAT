@@ -67,6 +67,10 @@ macOS 可以参考我的后续
 1. 下载安装 [VSCode](https://code.visualstudio.com/)
 2. 安装 c++扩展
 
+## github
+
+https://github.com/richenyunqi/CCF-CSP-and-PAT-solution
+
 ## 做题模版
 
 ```c++
@@ -84,7 +88,7 @@ int main()
   gg n;
   cin >> n; //读取输入，赋值到n上
 
-  // you code
+  // your code
 
   cout << n; // 标准输出 答案
   return 0;
