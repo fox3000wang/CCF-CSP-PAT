@@ -130,6 +130,12 @@ mkdir bits
 cp ~/Downloads/stdc++.h bits/
 ```
 
+把 stdc++.h 放到这个目录
+
+```
+/usr/local/include/bits
+```
+
 ### 利用 freopen 取代传统的手动输入测试数据
 
 ```c++
